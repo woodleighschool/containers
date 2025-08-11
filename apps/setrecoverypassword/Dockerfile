@@ -20,6 +20,7 @@ RUN \
     && \
     apt-get install -y --no-install-recommends --no-install-suggests \
         catatonit \
+        sqlite3 \
     && \
     pip install --no-cache-dir "https://github.com/woodleighschool/SetRecoveryPassword/releases/download/v${VERSION}/setrecoverypassword-${VERSION}-py3-none-any.whl" \
     && \
