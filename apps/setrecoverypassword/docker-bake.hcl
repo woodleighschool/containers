@@ -6,7 +6,7 @@ variable "APP" {
 
 variable "VERSION" {
   // renovate: datasource=github-releases depName=woodleighschool/SetRecoveryPassword
-  default = "1.0.4"
+  default = "1.1.0"
 }
 
 variable "SOURCE" {
