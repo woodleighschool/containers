@@ -3,7 +3,7 @@
 ARG TARGETPLATFORM
 ARG TARGETARCH
 ARG TARGETOS
-FROM docker.io/library/python:3.12-slim@sha256:9c1d9ed7593f2552a4ea47362ec0d2ddf5923458a53d0c8e30edf8b398c94a31
+FROM docker.io/library/python:3.12-slim@sha256:d67a7b66b989ad6b6d6b10d428dcc5e0bfc3e5f88906e67d490c4d3daac57047
 ARG VERSION
 
 LABEL internal.flatops.image.target_platform=$TARGETPLATFORM
