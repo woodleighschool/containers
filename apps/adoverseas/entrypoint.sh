@@ -12,4 +12,4 @@ if [ -n "${missing_vars}" ]; then
 fi
 
 # Launch SetRecoveryPassword
-exec adoverseas "$@"
+exec ADOverseas "$@"

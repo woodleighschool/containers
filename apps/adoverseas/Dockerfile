@@ -37,6 +37,6 @@ USER nobody:nogroup
 
 VOLUME ["/config"]
 
-ENV DB_PATH="/config/state.db"
+ENV DB_PATH="/config/schedules.db"
 
 ENTRYPOINT ["/usr/bin/catatonit", "--", "/entrypoint.sh"]
