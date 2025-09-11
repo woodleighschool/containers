@@ -2,7 +2,7 @@
 
 # Check environment variables
 missing_vars=""
-[ -z "$(LDAP_HOST)" ] && missing_vars="${missing_vars} LDAP_HOST"
+[ -z "${LDAP_HOST}" ] && missing_vars="${missing_vars} LDAP_HOST"
 [ -z "${JAMF_HOST}" ] && missing_vars="${missing_vars} JAMF_HOST"
 [ -z "${JAMF_CLIENT_ID}" ] && missing_vars="${missing_vars} JAMF_CLIENT_ID"
 [ -z "${JAMF_CLIENT_SECRET}" ] && missing_vars="${missing_vars} JAMF_CLIENT_SECRET"
