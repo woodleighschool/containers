@@ -6,7 +6,7 @@ variable "APP" {
 
 variable "VERSION" {
   // renovate: datasource=github-releases depName=woodleighschool/ADOverseas
-  default = "1.1.4"
+  default = "1.1.5"
 }
 
 variable "SOURCE" {
