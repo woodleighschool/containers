@@ -6,7 +6,7 @@ variable "APP" {
 
 variable "VERSION" {
   // renovate: datasource=github-releases depName=woodleighschool/JCDSSync
-  default = "2.0.2"
+  default = "2.0.3"
 }
 
 variable "SOURCE" {
